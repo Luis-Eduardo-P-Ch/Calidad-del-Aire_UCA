@@ -1,5 +1,14 @@
 
+*Análisis del efecto de las políticas de confinamiento social en los delitos de la ciudad de Buenos Aires, Argentina durante la pandemia del COVID-19 en 2020.*
 
+
+*Resumen*
+
+// Uno de los desafíos sanitarios más graves que ha enfrentado la humanidad es la pandemia del COVID-19, situación en donde casi todos los países del mundo implementaron severas restricciones de movilidad para ralentizar los contagios y por consecuencia los efectos mortales de la enfermedad infecciosa provocada por el virus Sars-cov-2. Sin embargo, las medidas de confinamiento no solo contribuyeron a mitigar el virus, sino que también permitieron otros efectos. Por tal motivo, en este estudio se investiga la relación entre la política de confinamiento y los cambios en los niveles de contaminación del aire de la ciudad de Buenos Aires-Argentina, un país de ingresos medios-bajos donde existe poca evidencia sobre los efectos del confinamiento en la calidad del aire. Para ello se utiliza un reporte oficial de emisión de monóxido de carbono, material particulado respirable y dióxido de nitrógeno proporcionado por el laboratorio ambiental de la ciudad entre enero de 2020 y mayo de 2020 en un marco de análisis de series temporales interrumpidas. Los hallazgos de este estudio revelen que los cambios en el comportamiento de la contaminación del aire se vieron relacionados con la política de confinamiento implementada para enfrentar la situación derivada de la pandemia del COVID-19. //
+
+
+
+//Empezamos realizando las gráficas//
 
 * gráfico (en diferencias) RD- DiD de las dos series en un mismo gráficco
 clear
@@ -7,13 +16,9 @@ clear
 import excel "C:\Users\luedu\Desktop\Doctorado en Economia UCA\Tesis\Regresión Discontinua\Calidad del Aire 2da\Calidad del Aire Consolidado_Gráfico_en diferencias.xlsx", sheet("Hoja1") firstrow
 
 
-
 destring PM10_Cent19_2019, replace
-
 destring PM10_Cent19_2020, replace
-
 destring NO2_Cent19_2019, replace
-
 destring NO2_Cent19_2020, replace
 
 
@@ -40,7 +45,7 @@ twoway (scatter PM10_Cent19_2019 DayssincestateOrder) (scatter PM10_Cent19_2020 
 twoway (scatter PM10_Cent19_2019 DayssincestateOrder if Day >=1 & Day <=156 || lfit PM10_Cent19_2019 DayssincestateOrder if Day >=1 & Day <=79 || lfit PM10_Cent19_2019 DayssincestateOrder if Day >=79 & Day <=157|| scatter PM10_Cent19_2020 DayssincestateOrder if Day >=1 & Day <=156 || lfit PM10_Cent19_2020 DayssincestateOrder if Day >=1 & Day <=79 || lfit PM10_Cent19_2020 DayssincestateOrder if Day >=79 & Day <=157||)
 
 
- *Empiezo importando la Base de Datos..    Delitos_consolidado 
+ *Empiezo importando la Base de Datos..    
 * Ahora empezamos con las estimaciones 
 
 
