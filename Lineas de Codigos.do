@@ -1,5 +1,5 @@
 
-*Análisis del efecto de las políticas de confinamiento social en los delitos de la ciudad de Buenos Aires, Argentina durante la pandemia del COVID-19 en 2020.*
+*Análisis del efecto de las políticas de confinamiento social en la contaminación del medio ambiente de la ciudad de Buenos Aires Argentina durante la pandemia del COVID-19 en 2020.*
 
 
 *Resumen*
@@ -8,7 +8,8 @@
 // pandemia del COVID-19, situación en donde casi todos los países del mundo//
 // implementaron severas restricciones de movilidad para ralentizar los contagios// 
 //y por consecuencia los efectos mortales de la enfermedad infecciosa provocada//
-//por el virus Sars-cov-2. Sin embargo, las medidas de confinamiento no solo// //contribuyeron a mitigar el virus, sino que también permitieron otros efectos.//
+//por el virus Sars-cov-2. Sin embargo, las medidas de confinamiento no solo//
+ //contribuyeron a mitigar el virus, sino que también permitieron otros efectos.//
 // Por tal motivo, en este estudio se investiga la relación entre la política de//
 // confinamiento y los cambios en los niveles de contaminación del aire de la//
 //ciudad de Buenos Aires-Argentina, un país de ingresos medios-bajos donde existe//
